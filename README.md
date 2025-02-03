@@ -30,14 +30,13 @@ npm install
 ```
 
 ### 3. Set Up Environment Variables
-Create a `.env` file in the root directory and add the following variables:
-```env
-MONGO_URI=<your-mongodb-connection-string>
-CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-name>
-CLOUDINARY_API_KEY=<your-cloudinary-api-key>
-CLOUDINARY_API_SECRET=<your-cloudinary-api-secret>
-RESEND_API_KEY=<your-resend-api-key>
+A `.env.sample` file has been provided with all necessary environment variables. Copy its contents and paste them into a new `.env` file in the root directory.
+
+```sh
+cp .env.sample .env
 ```
+
+Ensure you fill in the required values in the `.env` file before running the project.
 
 ### 4. Start the Server
 ```sh
