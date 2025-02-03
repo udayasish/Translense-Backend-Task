@@ -29,14 +29,9 @@ cd Translense-Backend-Task
 npm install
 ```
 
-### 3. Set Up Environment Variables
-A `.env.sample` file has been provided with all necessary environment variables. Copy its contents and paste them into a new `.env` file in the root directory.
+### 3. Added All Environment Variables
+A `.env` file has been provided with all necessary environment variables.
 
-```sh
-cp .env.sample .env
-```
-
-Ensure you fill in the required values in the `.env` file before running the project.
 
 ### 4. Start the Server
 ```sh
